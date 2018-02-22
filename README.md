@@ -1,2 +1,0 @@
-# ultrasonidos
-Código sensor ultrasonidos
