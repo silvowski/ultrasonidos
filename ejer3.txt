@@ -1,0 +1,1 @@
+<html><body><table>{for $author in distinct-values(//author)let $librosautor:= count(/catalog/book[author=$author])return <tr><td>{concat('author: ',$author,$librosautor)}</td></tr>}</table></body></html>
